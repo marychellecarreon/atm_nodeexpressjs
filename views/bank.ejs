@@ -1,0 +1,42 @@
+
+<div class="container">
+	
+	<div class="row">
+		<div class="col-md-4">
+
+			<p class="welcome">Current User: <%= username %> </p>
+				 
+			 <button class="btn btn-lg btn-primary btn-block" type="submit"><a href="/logout" >Logout</a></button>
+			
+			<p class="balance">Balance:  <%= amount%></>
+
+		</div>
+		
+		<div class="col-md-8">
+	
+			<form method="post" action="/deals" class="form-group">
+
+			<input type="text" name="amount" class="form-control" placeholder="Enter Amount..." />
+
+			<h2 class="form-signin-heading text-center">WITHDRAW</h2>
+			<input type="submit" name="withdraw" value="Withdraw" class="form-control btn-primary" />
+
+
+			 <h2 class="form-signin-heading text-center">DEPOSIT</h2>
+			<input type="submit" name="deposit" value="Deposit" class="form-control btn-primary" />
+
+			</form>
+		
+		</div>
+	
+	</div>	
+	
+
+
+
+	
+</div>
+
+
+
+

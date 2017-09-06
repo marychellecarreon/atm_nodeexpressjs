@@ -1,0 +1,56 @@
+
+body {
+
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+
+
+h1{
+	font-weight: bolder;
+	color: black;
+	text-shadow: 2px 2px #fff;
+	font-size: 5em;
+	text-align: center;
+}
+
+
+p{
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+
+.form-control{
+	margin-bottom: 5px;
+	height: 50px;
+	font-size: 1.2em;
+	text-align:center;
+}
+
+.form-group{
+	min-width: 40%;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.welcome, .balance{
+	font-size: 1.8em;
+	font-weight: bolder;
+	text-align: left;
+}
+
+.col-md-4{
+	padding: 20px;
+}
+
+
+
